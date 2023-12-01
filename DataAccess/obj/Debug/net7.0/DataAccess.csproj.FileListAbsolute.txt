@@ -1,0 +1,17 @@
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DataAccess.dll
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.dll
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DataAccessServiceContract.dll
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DataAccessServiceContract.pdb
+D:\Test.c#\FisrProject\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DomainModel.dll
+D:\Test.c#\FisrProject\DataAccess\bin\Debug\net7.0\DomainModel.pdb

@@ -1,0 +1,14 @@
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.csproj.AssemblyReference.cache
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.AssemblyInfoInputs.cache
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.AssemblyInfo.cs
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.csproj.CoreCompileInputs.cache
+D:\Test.c#\FisrProject\DomainModel\bin\Debug\net7.0\DomainModel.deps.json
+D:\Test.c#\FisrProject\DomainModel\bin\Debug\net7.0\DomainModel.runtimeconfig.json
+D:\Test.c#\FisrProject\DomainModel\bin\Debug\net7.0\DomainModel.dll
+D:\Test.c#\FisrProject\DomainModel\bin\Debug\net7.0\DomainModel.pdb
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.dll
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\refint\DomainModel.dll
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.pdb
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\DomainModel.genruntimeconfig.cache
+D:\Test.c#\FisrProject\DomainModel\obj\Debug\net7.0\ref\DomainModel.dll
