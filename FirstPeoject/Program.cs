@@ -8,13 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-
 #region Contexxt
 
-const string connectionString = "Data Source=DESKTOP-GROJMHH;Initial Catalog=FirstProjectTest;User ID=sa;Password=whoamia;MultipleActiveResultSets=true;TrustServerCertificate=Yes;";
+const string connectionString =
+    "Data Source=DESKTOP-GROJMHH;Initial Catalog=FirstProjectTest;User ID=sa;Password=whoamia;MultipleActiveResultSets=true;TrustServerCertificate=Yes;";
 
-builder.Services.AddDbContext<PContext>(options =>
-      options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<PContext>(options => options.UseSqlServer(connectionString));
 
 #endregion
 
@@ -34,42 +33,42 @@ builder.Services.AddScoped<SignInManager<Users>>();
 
 #region Auth
 
-builder.Services.AddIdentity<Users, Role>(options =>
-{
-    options.SignIn.RequireConfirmedAccount = false;
-    options.User.RequireUniqueEmail = false;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireDigit = true;
-    options.Password.RequireUppercase = false;
-})
-.AddEntityFrameworkStores<PContext>()
-.AddDefaultTokenProviders();
+builder
+    .Services
+    .AddIdentity<Users, Role>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = false;
+        options.User.RequireUniqueEmail = false;
+        options.Password.RequiredLength = 6;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireDigit = true;
+        options.Password.RequireUppercase = false;
+    })
+    .AddEntityFrameworkStores<PContext>()
+    .AddDefaultTokenProviders();
 
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.AccessDeniedPath = "/Login";
-    options.LogoutPath = "/Logout";
-    options.LoginPath = "/Login";
-    options.Cookie.HttpOnly = true;
-    options.ExpireTimeSpan = TimeSpan.FromDays(30);
-});
+builder
+    .Services
+    .ConfigureApplicationCookie(options =>
+    {
+        options.AccessDeniedPath = "/Login";
+        options.LogoutPath = "/Logout";
+        options.LoginPath = "/Login";
+        options.Cookie.HttpOnly = true;
+        options.ExpireTimeSpan = TimeSpan.FromDays(30);
+    });
 
 #endregion
 
 
 builder.Services.AddHttpContextAccessor();
 
-
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/FourZeroFour");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
@@ -81,7 +80,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseCookiePolicy();
-
 
 app.MapRazorPages();
 

@@ -24,12 +24,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/FourZeroFour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm91clplcm9Gb3VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CustomPersonalSite/CustomPersonalSite/FirstPeoject/Pages/Shared/_adminLayout.cshtml]
