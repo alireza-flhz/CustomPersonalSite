@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {}
+    "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {}
   },
   "projects": {
-    "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
+    "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
+        "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
         "projectName": "DataAccessServiceContract",
-        "projectPath": "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
+        "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
         "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\obj\\",
+        "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj"
+              "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
+                "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj": {
+    "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj",
+        "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
         "projectName": "DomainModel",
-        "projectPath": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj",
+        "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
         "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "D:\\Test.c#\\FisrProject\\DomainModel\\obj\\",
+        "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -4942,11 +4942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj",
+      "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
       "projectName": "DomainModel",
-      "projectPath": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj",
+      "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
       "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-      "outputPath": "D:\\Test.c#\\FisrProject\\DomainModel\\obj\\",
+      "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"

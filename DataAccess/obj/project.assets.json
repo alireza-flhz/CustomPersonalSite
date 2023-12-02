@@ -4713,11 +4713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test.c#\\FisrProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\Test.c#\\FisrProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-      "outputPath": "D:\\Test.c#\\FisrProject\\DataAccess\\obj\\",
+      "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4732,11 +4732,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
-              "projectPath": "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
+            "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
+              "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
             },
-            "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj": {
-              "projectPath": "D:\\Test.c#\\FisrProject\\DomainModel\\DomainModel.csproj"
+            "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
+              "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj"
             }
           }
         }

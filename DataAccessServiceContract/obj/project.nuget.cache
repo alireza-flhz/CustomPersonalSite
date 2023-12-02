@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W9EJnLqG6034CbCU3SPNluQYKTrJQyuvPIj7fHXOf+MpEf4bUZFPnqq2kOeUHrxbQO0o1soKHEppiWVh4MsxYw==",
+  "dgSpecHash": "u2VMRyl9BBXskBUZkhrzDQAo0MvNDMBJcGVHhQwpSPcNVpqqFvUD7FobxyxMcsAHM3OjupU8cy5m99vPXJLXEw==",
   "success": true,
-  "projectFilePath": "D:\\Test.c#\\FisrProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
+  "projectFilePath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alireza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
