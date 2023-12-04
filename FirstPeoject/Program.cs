@@ -1,3 +1,5 @@
+using DataAccess;
+using DataAccessServiceContract;
 using DomainModel;
 using DomainModel.Models;
 using Microsoft.AspNetCore.Identity;
@@ -11,19 +13,18 @@ builder.Services.AddRazorPages();
 #region Contexxt
 
 const string connectionString =
-    "Data Source=DESKTOP-GROJMHH;Initial Catalog=FirstProjectTest;User ID=sa;Password=whoamia;MultipleActiveResultSets=true;TrustServerCertificate=Yes;";
-
-builder.Services.AddDbContext<PContext>(options => options.UseSqlServer(connectionString));
+    // "Data Source=DESKTOP-GROJMHH;Initial Catalog=FirstProjectTest;User ID=sa;Password=whoamia;MultipleActiveResultSets=true;TrustServerCertificate=Yes;";
+    "Data Source=192.168.1.227;Initial Catalog=AAAAAAPersonalTEst;User ID=sa;Password=DaT@BA$3$Rv;MultipleActiveResultSets=true;TrustServerCertificate=Yes";
+builder.Services.AddDbContext<PersonalContext>(options => options.UseSqlServer(connectionString));
 
 #endregion
 
 #region IOC
 
-// builder.Services.AddScoped<IUserRepository, UserRepository>();
-// builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-// builder.Services.AddScoped<IUserRoleRepository, UserRoleReporitory>();
-// builder.Services.AddScoped<ICertificateRepository, CertificateRepository>();
-// builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IRoleRepository, RolRepository>();
+builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 
 builder.Services.AddScoped<UserManager<Users>>();
@@ -44,7 +45,7 @@ builder
         options.Password.RequireDigit = true;
         options.Password.RequireUppercase = false;
     })
-    .AddEntityFrameworkStores<PContext>()
+    .AddEntityFrameworkStores<PersonalContext>()
     .AddDefaultTokenProviders();
 
 builder

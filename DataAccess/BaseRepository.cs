@@ -12,10 +12,10 @@ namespace DataAccess
 {
     public class BaseRepository<TModel, TKey> : IBaseRepository<TModel, TKey> where TModel : class
     {
-        protected readonly PContext _context;
+        protected readonly PersonalContext _context;
         protected readonly IHttpContextAccessor accessor;
         private readonly DbSet<TModel> _model;
-        public BaseRepository(PContext context, IHttpContextAccessor _accessor)
+        public BaseRepository(PersonalContext context, IHttpContextAccessor _accessor)
         {
             _context = context;
             accessor = _accessor;

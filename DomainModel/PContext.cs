@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace DomainModel
 {
-    public class PContext: IdentityDbContext<Users>
+    public class PersonalContext: IdentityDbContext<Users>
     {
-        public PContext(DbContextOptions<PContext> options) : base(options)
+        public PersonalContext(DbContextOptions<PersonalContext> options) : base(options)
         {
             
         }

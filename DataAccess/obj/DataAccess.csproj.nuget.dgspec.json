@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj": {}
+    "E:\\PersonalProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
+    "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
+        "projectUniqueName": "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
         "projectName": "DataAccessServiceContract",
-        "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\obj\\",
+        "projectPath": "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj",
+        "packagesPath": "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\",
+        "outputPath": "E:\\PersonalProject\\DataAccessServiceContract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alireza.fallahzade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj"
+              "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {
+                "projectPath": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj"
               }
             }
           }
@@ -63,37 +69,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj": {
+    "E:\\PersonalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\PersonalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccess\\obj\\",
+        "projectPath": "E:\\PersonalProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\",
+        "outputPath": "E:\\PersonalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alireza.fallahzade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
-                "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
+              "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
+                "projectPath": "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
               },
-              "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj"
+              "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {
+                "projectPath": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj"
               }
             }
           }
@@ -129,26 +141,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
+    "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
+        "projectUniqueName": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj",
         "projectName": "DomainModel",
-        "projectPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "D:\\CustomPersonalSite\\CustomPersonalSite\\DomainModel\\obj\\",
+        "projectPath": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj",
+        "packagesPath": "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\",
+        "outputPath": "E:\\PersonalProject\\DomainModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alireza.fallahzade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -210,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.114\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
