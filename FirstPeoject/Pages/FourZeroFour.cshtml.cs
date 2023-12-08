@@ -17,7 +17,7 @@ namespace FirstPeoject.Pages
         {
             _logger = logger;
         }
-        private ErrorViewModel _errorModel{get;set;}
+        private ErrorViewModel _errorModel { get; set; }
         public void OnGet()
         {
         }

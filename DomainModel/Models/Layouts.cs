@@ -2,16 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
 
 namespace DomainModel.Models
 {
-    public class Users : IdentityUser
+    public class Layouts
     {
+        public int ID { get; set; }
         public string Name { get; set; }
-        public string Family { get; set; }
-        public virtual ICollection<UserRole> UserRoles { get; set; }
+        public string Url { get; set; }
         public ICollection<UserLayout> _userLayout { get; set; }
-
     }
 }
