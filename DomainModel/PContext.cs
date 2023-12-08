@@ -17,6 +17,10 @@ namespace DomainModel
         public DbSet<Users> User { get; set; }
         public DbSet<UserRole> UserRole { get; set; }
         public DbSet<Role> Role { get; set; }
+        public DbSet<Layouts> Layouts { get; set; }
+        public DbSet<Sections> Sections { get; set; }
+        public DbSet<UserLayout> UserLayouts { get; set; }
+        public DbSet<SectionUserLayout> SectionUserLayouts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>(i =>

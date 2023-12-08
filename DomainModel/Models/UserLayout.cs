@@ -12,5 +12,6 @@ namespace DomainModel.Models
         public virtual Users user { get; set; }
         public int LayoutID { get; set; }
         public virtual Layouts layout { get; set; }
+        public string Name { get; set; }
     }
 }

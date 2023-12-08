@@ -16,6 +16,7 @@ namespace DomainModel.Models
         public bool IsPublic { get; set; }
         public bool IsVerifed { get; set; } = false;
         public string UserID { get; set; }
+        public ICollection<SectionsMedia> sectionsMedias { get; set; }
         public int? TargetID { get; set; }
         public TableName Target { get; set; }
 
