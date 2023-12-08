@@ -72,72 +72,102 @@ namespace DataAccess
             }
         }
 
-        public async Task<RepositoryResult> NewUserLayout(string UserID, List<int> Section, int LayoutID,int? userLayoutID ,string Name)
+        public async Task<RepositoryResult> NewUserLayout(string UserID, List<int> Section, int LayoutID, int? userLayoutID, string Name)
         {
             var returnModel = new RepositoryResult();
             try
             {
                 var userLayout = new UserLayout();
-                bool help=true;
+                bool help = true;
                 if (userLayoutID.HasValue && userLayoutID.Value > 0)
                 {
-                    userLayout = await _context.UserLayouts.FirstOrDefaultAsync(x => x.ID==userLayoutID);
-                    if(!string.IsNullOrWhiteSpace(Name)) userLayout.Name=Name;
-                    help=false;
+                    userLayout = await _context.UserLayouts.FirstOrDefaultAsync(x => x.ID == userLayoutID);
+                    if (!string.IsNullOrWhiteSpace(Name)) userLayout.Name = Name;
+                    help = false;
                 }
 
-                if(help){
-                    var newUserLayout=new UserLayout(){
-                        LayoutID=LayoutID,
-                        UserID=UserID,
-                        Name=Name
-                    };
-                    var resAdd=await AddAsync(newUserLayout);
-                    if(!resAdd.Success){
-                        //Error
-                    }
-                    resAdd=await SaveAsync();
-                    if(!resAdd.Success)
+                if (help)
+                {
+                    var newUserLayout = new UserLayout()
                     {
-                        //Error
+                        LayoutID = LayoutID,
+                        UserID = UserID,
+                        Name = Name
+                    };
+                    var resAdd = await AddAsync(newUserLayout);
+                    if (!resAdd.Success)
+                    {
+                        returnModel.Error = "Error : UserLayoutNotAdd ";
+                        returnModel.IsSuccess = false;
+                        return returnModel;
+
+                    }
+                    resAdd = await SaveAsync();
+                    if (!resAdd.Success)
+                    {
+                        returnModel.Error = "Error : DataBase Not save";
+                        returnModel.IsSuccess = false;
+                        return returnModel;
                     }
                 }
-                
-                var section=new Sections();
-                
-                var listdelete=_context.SectionUserLayouts.Where(x=>x.userLayoutID==userLayout.ID);            
-                if(listdelete!=null) {
+
+                var section = new Sections();
+
+                var listdelete = _context.SectionUserLayouts.Where(x => x.userLayoutID == userLayout.ID);
+                if (listdelete != null)
+                {
                     foreach (var item in listdelete)
                     {
-                        var resDel=await _sectionUserRepository.DeleteAsync(item);
-                        if(!resDel.Success){
-                            //Error
+                        var resDel = await _sectionUserRepository.DeleteAsync(item);
+                        if (!resDel.Success)
+                        {
+                            returnModel.Error = "Error : Delete SectionUser Not working";
+                            returnModel.IsSuccess = false;
+                            return returnModel;
+
+
                         }
                     }
                 }
-               
+
                 foreach (var item in Section)
                 {
-                    // TODO Check SectionID Before call this Funtion
-                    section=await _context.Sections.FirstOrDefaultAsync(x=>x.ID==item);
-                    if(section==null)
+                    section = await _context.Sections.FirstOrDefaultAsync(x => x.ID == item);
+                    if (section == null)
                     {
-                        //Error
+                        returnModel.Error = "Error: Section Not Found";
+                        returnModel.IsSuccess = false;
+                        return returnModel;
                     }
-                    var newUserLayoutSection=new SectionUserLayout(){
-                        sectionID=section.ID,
-                        userLayoutID=userLayout.ID
+                    var newUserLayoutSection = new SectionUserLayout()
+                    {
+                        sectionID = section.ID,
+                        userLayoutID = userLayout.ID
                     };
+                    var resAdd = await _sectionUserRepository.AddAsync(newUserLayoutSection);
+                    if (!resAdd.Success)
+                    {
+                        returnModel.Error = "Error : Error in Add Section Layout";
+                        returnModel.IsSuccess = false;
+                        return returnModel;
+                    }
                 }
-                var resSave=await SaveAsync();
-                if(!resSave.Success){
-                    //Error
+                var resSave = await SaveAsync();
+                if (!resSave.Success)
+                {
+                    returnModel.Error = "Error : save Database";
+                    returnModel.IsSuccess = false;
+                    return returnModel;
                 }
+                returnModel.Error = "Success";
+                returnModel.IsSuccess = true;
                 return returnModel;
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
-
+                returnModel.Error = ex.Message;
+                returnModel.IsSuccess = false;
+                return returnModel;
                 throw;
             }
         }

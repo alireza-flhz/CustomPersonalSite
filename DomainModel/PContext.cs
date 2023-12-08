@@ -21,6 +21,7 @@ namespace DomainModel
         public DbSet<Sections> Sections { get; set; }
         public DbSet<UserLayout> UserLayouts { get; set; }
         public DbSet<SectionUserLayout> SectionUserLayouts { get; set; }
+        public DbSet<DefaultSection> DefaultSections { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>(i =>

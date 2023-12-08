@@ -24,6 +24,9 @@ builder.Services.AddDbContext<PersonalContext>(options => options.UseSqlServer(c
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IRoleRepository, RolRepository>();
 builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+builder.Services.AddScoped<ISectionRepository, SectionRepository>();
+builder.Services.AddScoped<ISectionUserLayoutRepository, SectionUserLayoutRepository>();
+builder.Services.AddScoped<IUserLayoutRepository, UserLayoutRepository>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 

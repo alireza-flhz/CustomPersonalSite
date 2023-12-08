@@ -5,15 +5,12 @@ using System.Threading.Tasks;
 
 namespace DomainModel.Models
 {
-    public class Sections
+    public class DefaultSection
     {
         public int ID { get; set; }
+        public string Name { get; set; }
         public string Title { get; set; }
-        public string URL { get; set; }
         public string Description { get; set; }
-        public int DefaultSecctionID { get; set; }
-        public virtual DefaultSection defaultSection { get; set; }
-
-        public virtual ICollection<SectionsMedia> sectionsMedias { get; set; }
+        public ICollection<Sections> Sections { get; set; }
     }
 }
