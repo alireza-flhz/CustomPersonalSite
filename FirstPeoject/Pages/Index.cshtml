@@ -2,12 +2,14 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    Layout = "_Site_OneLayout";
 }
 
-@if(Model.ErrorModel!=null){
-<h3>
-    @Model.ErrorModel.Title
-</h3>
+@if (Model.ErrorModel != null)
+{
+    <h3>
+        @Model.ErrorModel.Title
+    </h3>
 }
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
