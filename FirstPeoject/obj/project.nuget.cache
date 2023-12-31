@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ekK6ba4fWd38KhoV1vIfMxRcve1KOA6pAMGny14Bh17qQO6pJoSzKPz3iLfaqgPfG0VxhqUMvzM44PNo6ZYs4A==",
+  "dgSpecHash": "V/cR4OA0xh8j4VaBd/q9cPiIsSNLi36jwduF6ES+CsWEQJSY9nlgHzwZvGQnO9IIU4BwPDUyEVprbZR7APMngQ==",
   "success": true,
-  "projectFilePath": "E:\\PersonalProject\\FirstPeoject\\FirstPeoject.csproj",
+  "projectFilePath": "E:\\Personal_Project\\CustomPersonalSite\\FirstPeoject\\FirstPeoject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

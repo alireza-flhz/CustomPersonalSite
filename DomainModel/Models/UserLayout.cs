@@ -13,5 +13,6 @@ namespace DomainModel.Models
         public int LayoutID { get; set; }
         public virtual Layouts layout { get; set; }
         public string Name { get; set; }
+        public ICollection<SectionUserLayout>  sectionUserLayouts{ get; set; }
     }
 }

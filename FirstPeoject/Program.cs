@@ -14,7 +14,7 @@ builder.Services.AddRazorPages();
 
 const string connectionString =
     // "Data Source=DESKTOP-GROJMHH;Initial Catalog=FirstProjectTest;User ID=sa;Password=whoamia;MultipleActiveResultSets=true;TrustServerCertificate=Yes;";
-    "Data Source=192.168.1.227;Initial Catalog=AAAAAAPersonalTEst;User ID=sa;Password=DaT@BA$3$Rv;MultipleActiveResultSets=true;TrustServerCertificate=Yes";
+    "Data Source=192.168.1.227;Initial Catalog=ATestt;User ID=sa;Password=DaT@BA$3$Rv;MultipleActiveResultSets=true;TrustServerCertificate=Yes";
 builder.Services.AddDbContext<PersonalContext>(options => options.UseSqlServer(connectionString));
 
 #endregion

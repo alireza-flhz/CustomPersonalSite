@@ -11,7 +11,7 @@ namespace DomainModel.Models
         public string Name { get; set; }
         public string Family { get; set; }
         public virtual ICollection<UserRole> UserRoles { get; set; }
-        public ICollection<UserLayout> _userLayout { get; set; }
+        public virtual ICollection<UserLayout> _userLayout { get; set; }
 
     }
 }

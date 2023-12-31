@@ -5007,11 +5007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PersonalProject\\FirstPeoject\\FirstPeoject.csproj",
+      "projectUniqueName": "E:\\Personal_Project\\CustomPersonalSite\\FirstPeoject\\FirstPeoject.csproj",
       "projectName": "FirstPeoject",
-      "projectPath": "E:\\PersonalProject\\FirstPeoject\\FirstPeoject.csproj",
+      "projectPath": "E:\\Personal_Project\\CustomPersonalSite\\FirstPeoject\\FirstPeoject.csproj",
       "packagesPath": "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\",
-      "outputPath": "E:\\PersonalProject\\FirstPeoject\\obj\\",
+      "outputPath": "E:\\Personal_Project\\CustomPersonalSite\\FirstPeoject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5033,14 +5033,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
-              "projectPath": "E:\\PersonalProject\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
+            "E:\\Personal_Project\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj": {
+              "projectPath": "E:\\Personal_Project\\CustomPersonalSite\\DataAccessServiceContract\\DataAccessServiceContract.csproj"
             },
-            "E:\\PersonalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "E:\\PersonalProject\\DataAccess\\DataAccess.csproj"
+            "E:\\Personal_Project\\CustomPersonalSite\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "E:\\Personal_Project\\CustomPersonalSite\\DataAccess\\DataAccess.csproj"
             },
-            "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {
-              "projectPath": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj"
+            "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
+              "projectPath": "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj"
             }
           }
         }

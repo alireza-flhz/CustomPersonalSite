@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {}
+    "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {}
   },
   "projects": {
-    "E:\\PersonalProject\\DomainModel\\DomainModel.csproj": {
+    "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj",
+        "projectUniqueName": "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
         "projectName": "DomainModel",
-        "projectPath": "E:\\PersonalProject\\DomainModel\\DomainModel.csproj",
+        "projectPath": "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\DomainModel.csproj",
         "packagesPath": "C:\\Users\\alireza.fallahzade\\.nuget\\packages\\",
-        "outputPath": "E:\\PersonalProject\\DomainModel\\obj\\",
+        "outputPath": "E:\\Personal_Project\\CustomPersonalSite\\DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

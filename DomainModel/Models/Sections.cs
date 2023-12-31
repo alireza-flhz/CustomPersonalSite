@@ -13,7 +13,7 @@ namespace DomainModel.Models
         public string Description { get; set; }
         public int DefaultSecctionID { get; set; }
         public virtual DefaultSection defaultSection { get; set; }
-
+        public virtual ICollection<SectionUserLayout> SectionUserLayouts { get; set; }
         public virtual ICollection<SectionsMedia> sectionsMedias { get; set; }
     }
 }

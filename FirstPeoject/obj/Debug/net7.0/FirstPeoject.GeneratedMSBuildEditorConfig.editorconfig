@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstPeoject
 build_property.RootNamespace = FirstPeoject
-build_property.ProjectDir = E:\PersonalProject\FirstPeoject\
+build_property.ProjectDir = E:\Personal_Project\CustomPersonalSite\FirstPeoject\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\PersonalProject\FirstPeoject
+build_property.MSBuildProjectDirectory = E:\Personal_Project\CustomPersonalSite\FirstPeoject
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Admin/Index.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Error.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/FourZeroFour.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/FourZeroFour.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm91clplcm9Gb3VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Index.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Login.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Privacy.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Register.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Shared/_adminLayout.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Shared/_adminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9hZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Shared/_Site_OneLayout.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Shared/_Site_OneLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaXRlX09uZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Shoping.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Shoping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/_ViewImports.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/_ViewStart.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/PersonalProject/FirstPeoject/Pages/Shared/_Layout.cshtml]
+[E:/Personal_Project/CustomPersonalSite/FirstPeoject/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zi3mv0hz96

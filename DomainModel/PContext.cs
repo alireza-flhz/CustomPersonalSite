@@ -30,18 +30,44 @@ namespace DomainModel
                 i.Property(x => x.UserName).HasMaxLength(300);
                 i.HasMany(x => x.UserRoles).WithOne(x => x.User).HasForeignKey(x => x.UserID);
             });
-
+            modelBuilder.Entity<UserRole>(i =>
+            {
+                i.HasKey(x => x.ID);
+                i.HasOne(x => x.Role).WithMany(x => x.UserRoles);
+                i.HasOne(x => x.User).WithMany(x => x.UserRoles);
+            });
             modelBuilder.Entity<Role>(i =>
             {
                 i.HasMany(x => x.UserRoles).WithOne(x => x.Role).HasForeignKey(x => x.RoleID);
             });
-
-            modelBuilder.Entity<UserRole>(i =>
+            modelBuilder.Entity<Sections>(i =>
             {
-                i.HasOne(x => x.User).WithMany(x => x.UserRoles);
-                i.HasOne(x => x.Role).WithMany(x => x.UserRoles);
+                i.HasKey(x => x.ID);
+                i.HasOne(x => x.defaultSection).WithMany(x => x.Sections);
+                i.HasMany(x => x.sectionsMedias).WithOne(x => x.section).HasForeignKey(x => x.SectionID);
             });
-
+            modelBuilder.Entity<DefaultSection>(i =>
+            {
+                i.HasKey(x => x.ID);
+                i.Property(x => x.Name).HasMaxLength(100);
+                i.Property(x => x.Title).HasMaxLength(200);
+                i.Property(x => x.Description).HasMaxLength(1000);
+                i.HasMany(x => x.Sections).WithOne(x => x.defaultSection).HasForeignKey(x => x.DefaultSecctionID);
+            });
+            modelBuilder.Entity<UserLayout>(i =>
+            {
+                i.HasKey(x => x.ID);
+                i.Property(x => x.Name).HasMaxLength(100);
+                i.HasOne(x => x.user).WithMany(x => x._userLayout);
+                i.HasOne(x => x.layout).WithMany(x => x._userLayout);
+                i.HasMany(x => x.sectionUserLayouts).WithOne(x => x.userLayout).HasForeignKey(x => x.userLayoutID);
+            });
+            modelBuilder.Entity<SectionUserLayout>(i =>
+            {
+                i.HasKey(x => x.ID);
+                i.HasOne(x => x.userLayout).WithMany(x => x.sectionUserLayouts);
+                i.HasOne(x => x.Sections).WithMany(x => x.SectionUserLayouts);
+            });
             base.OnModelCreating(modelBuilder);
         }
 
